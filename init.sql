@@ -1,0 +1,5 @@
+CREATE TABLE account (
+    id MEDIUMINT NOT NULL AUTO_INCREMENT,
+    username CHAR(25) NOT NULL UNIQUE,
+    paswword CHAR(25) NOT NULL
+)
